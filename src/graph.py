@@ -11,6 +11,8 @@ def calculate_avg(graph):
      count += 1
   if count>0:
     return '{:0.2f}'.format(truncate((nodes/count),2),2)
+  else:
+    return '{:0.2f}'.format(0.00)
 
 
 def make_graph(tweets):
